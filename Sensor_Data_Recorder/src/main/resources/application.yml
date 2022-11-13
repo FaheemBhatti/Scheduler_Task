@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sensor_data_producer
+    username: root
+    password: password
+    
+cron:
+  interval: "*/10 * * * * *"
